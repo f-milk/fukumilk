@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*レイアウト*/
+.align{
+    text-align: center;
+    /*padding-left: 1.5rem;*/
+}
+
+/*見出し*/
+.font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+}
+
+.page-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1rem;
+}
+
+.titleinfo{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5%;
+    border-width: 0 medium;
+    border-style: double;
+    max-width: 11.3rem;
+    padding: 0.005rem 0.5rem;
+}
+
+.titlenews{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5%;
+    border-width: 0 medium;
+    border-style: double;
+    max-width: 6rem;
+    padding: 0.005rem 0.5rem;
+}
+
+.titlemenu{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5%;
+    border-width: 0 medium;
+    border-style: double;
+    max-width: 6.2rem;
+    padding: 0.005rem 0.5rem;
+}
+
+.titlesns{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5%;
+    border-width: 0 medium;
+    border-style: double;
+    max-width: 4.8rem;
+    padding: 0.005rem 0.5rem;
+}
+
+.titlemap{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5%;
+    border-width: 0 medium;
+    border-style: double;
+    max-width: 7.4rem;
+    padding: 0.005rem 0.5rem;
+}
+
+/*ヘッダー*/
+.page-header{
+    padding: 1.2rem;
+}
+.logo{
+    width: 12%;
+}
+
+.cover1{
+    width: 100%;
+}
+
+/*フッター*/
+.footer{
+    padding-top: 2.5rem;
+}
+
+/*.foot{
+}*/
+
+.info{
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    text-align: left;
+}
+
+.sns{
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+}
+
+
+iframe{
+    width: 100%;
+}
+
+.copyright{
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 2rem 0;
+    border-top: 2px solid;
+    max-width: 90%;
+}
+
+
+.menuu{
+    max-width: 96%;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bun{
+    padding: 1rem 1.5rem;
+}
+
+.basyo{
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #940602;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    background-color: #5e0301;
+    scale: 1.2;
+}
+
+.chui{
+    padding: 1rem;
+}
+
+.mobu{
+    padding-bottom: 0.5rem;
+}
+
+.waku{
+    font-size: small;
+    margin: 2rem 1rem 1rem;
+    padding: 1rem 1.5rem;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #940602;
+    color: #432;
+
+}
+
+.top{
+    padding-bottom: 1rem;
+}
+.down{
+    padding-top: 1.5rem;
+}
+
+.itiran{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 0.5rem 2rem;
+    
+}
+ul{
+    list-style-type: square;
+}
+
+.big{
+    max-width: 100%;
+    margin: 0 5%;
+}
+
+.text-menu{
+    margin: 2rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.text-message{
+    text-align: center;
+    font-size: large;
+    max-width: 100%;
+    margin: 1rem 5%;
+}
+.margin-bottom{
+    margin-bottom: 1.5rem;
+}
+
+.date{
+    max-width: 100%;
+}
